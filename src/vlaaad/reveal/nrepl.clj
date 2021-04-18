@@ -51,7 +51,7 @@
                   (.getSimpleName (class throwable))
                   {:fill :error})))
 
-            :else
+            #_#_:else
             {:request request :message message}))))))
 
 (defn- show-tap [ui value]
